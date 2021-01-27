@@ -30,19 +30,8 @@ public final class Uhc extends JavaPlugin implements Listener {
 
     }
 
+//dadSSDA
 
-//sas
 
-    @EventHandler
-    public void OnDeath(PlayerDeathEvent event){
-
-        Player player = event.getEntity().getPlayer();
-        if (player.isDead()){
-
-            player.setGameMode(GameMode.SPECTATOR);
-
-        }
-
-    }
 
 }
