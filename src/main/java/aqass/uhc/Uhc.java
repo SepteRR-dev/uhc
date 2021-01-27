@@ -1,5 +1,6 @@
 package aqass.uhc;
 
+import aqass.uhc.listener.deathListener;
 import aqass.uhc.listener.regenerationListener;
 import org.bukkit.GameMode;
 import org.bukkit.entity.Player;
@@ -16,7 +17,7 @@ public final class Uhc extends JavaPlugin implements Listener {
         // Plugin startup logic
 
         getServer().getPluginManager().registerEvents(new regenerationListener(), this);
-
+        getServer().getPluginManager().registerEvents(new deathListener(), this);
         System.out.println("UHC plugin loaded");
 
     }
@@ -30,7 +31,7 @@ public final class Uhc extends JavaPlugin implements Listener {
 
     }
 
-//dadSSDA
+
 
 
 
