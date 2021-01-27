@@ -9,7 +9,7 @@ public class deathListener implements Listener {
 
     public void OnDeath(PlayerDeathEvent event) {
         Player player = event.getEntity().getPlayer();
-        if (player.isDead()) {
+        if (player != null && player.isDead()) {
             player.setGameMode(GameMode.SPECTATOR);
 
         }
