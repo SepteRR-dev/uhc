@@ -30,6 +30,9 @@ public final class Uhc extends JavaPlugin implements Listener {
 
     }
 
+
+//sas
+
     @EventHandler
     public void OnDeath(PlayerDeathEvent event){
 
