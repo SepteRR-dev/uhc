@@ -13,7 +13,7 @@ public final class Uhc extends JavaPlugin implements Listener {
         // Plugin startup logic
 
         getServer().getPluginManager().registerEvents(new regenerationListener(), this);
-        getServer().getPluginManager().registerEvents(new deathListener(), this);
+        getServer().getPluginManager().registerEvents(new deathListener(),this);
         System.out.println("UHC plugin loaded");
 
     }
@@ -22,7 +22,7 @@ public final class Uhc extends JavaPlugin implements Listener {
     public void onDisable() {
             // Plugin shutdown logicnh
 
-        System.out.println("Plugin is dead lmao"); //Oh yyes bull
+        System.out.println("Plugin is dead lmao");
 
 
     }

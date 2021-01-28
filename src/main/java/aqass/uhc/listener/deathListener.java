@@ -11,6 +11,8 @@ public class deathListener implements Listener {
         Player player = event.getEntity().getPlayer();
         if (player != null && player.isDead()) {
             player.setGameMode(GameMode.SPECTATOR);
+            event.setDeathMessage("Gracz "+ player.getDisplayName() + "Odpadl z rozgrywki");
+
 
         }
 
