@@ -20,7 +20,7 @@ public final class Uhc extends JavaPlugin implements Listener {
 
     @Override
     public void onDisable() {
-            // Plugin shutdown logicnh
+            // Plugin shutdown logicnh.
 
         System.out.println("Plugin is dead lmao");
 
